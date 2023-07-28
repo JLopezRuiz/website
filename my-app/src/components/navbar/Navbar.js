@@ -16,7 +16,7 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <div className={styles['navbar-container']}>
           <Link to="/" className={styles['navbar-logo']} onClick={closeMobileMenu}>
-            Jackeline&apos;s Data Byte
+            Jackeline&apos;s Data Bites
           </Link>
           <div onClick={handleClick}>
             <img src={click ? Cancel : WhiteMenuBar} alt="cancel icon" className={styles['menu-icon']} />
@@ -32,11 +32,11 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className={styles['nav-item']}>
+            {/* <li className={styles['nav-item']}>
               <Link to="/posts" className={styles['nav-links']} onClick={closeMobileMenu}>
                 Posts
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

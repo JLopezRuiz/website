@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Posts from './components/pages/Posts';
+import Home from './components/pages/home/Home';
+import About from './components/pages/about/About';
+import Posts from './components/pages/posts/Posts';
 
 const App = () => (
   <div className="App">
