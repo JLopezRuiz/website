@@ -1,22 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import styles from './CardItem.module.scss';
 
 const CardItem = ({
-  src, text, path, label,
+  imageSrc, caption, path, label,
 }) => (
   <div>
-    <li className="cards__item">
-      <Link className="cards__item__link" to={path}>
-        <figure className="cards__item__pic-wrap" data-category={label}>
+    <li className={styles.cards__item}>
+      <Link className={styles.cards__item__link} to={path}>
+        <figure className={styles['cards__item__pic-wrap']} data-category={label}>
           <img
-            className="cards__item__img"
-            alt="Travel"
-            src={src}
+            className={styles.cards__item__img}
+            alt=""
+            src={imageSrc}
           />
         </figure>
-        <div className="cards__item__info">
-          <h5 className="cards__item__text">{text}</h5>
+        <div className={styles.cards__item__info}>
+          <h5 className={styles.cards__item__text}>{caption}</h5>
         </div>
       </Link>
     </li>
@@ -24,16 +25,16 @@ const CardItem = ({
 );
 
 CardItem.propTypes = {
-  src: PropTypes.string,
-  text: PropTypes.string,
+  imageSrc: PropTypes.string,
+  caption: PropTypes.string,
   path: PropTypes.string,
   label: PropTypes.string,
 };
 
 CardItem.defaultProps = {
-  src: '',
-  text: '',
-  path: '',
+  imageSrc: '',
+  caption: '',
+  path: '/',
   label: '',
 };
 

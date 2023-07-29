@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Cancel from '../../images/Cancel.svg';
-import WhiteMenuBar from '../../images/WhiteMenuBar.svg';
+import Cancel from '../../assets/icons/Cancel.svg';
+import WhiteMenuBar from '../../assets/icons/WhiteMenuBar.svg';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
@@ -32,11 +32,11 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            {/* <li className={styles['nav-item']}>
+            <li className={styles['nav-item']}>
               <Link to="/posts" className={styles['nav-links']} onClick={closeMobileMenu}>
                 Posts
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
