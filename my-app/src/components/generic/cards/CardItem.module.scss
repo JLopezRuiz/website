@@ -1,14 +1,14 @@
 .cards__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 0 1rem 3rem;
     border-radius: 10px;
   }
   
   .cards__item__link {
     display: flex;
     flex-flow: column;
-    width: 600px;
+    width: 600px; 
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
