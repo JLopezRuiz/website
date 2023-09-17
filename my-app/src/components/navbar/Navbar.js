@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cancel from '../../assets/icons/Cancel.svg';
 import WhiteMenuBar from '../../assets/icons/WhiteMenuBar.svg';
+import ProfilePic from '../../assets/images/profile-pic.png';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
@@ -15,9 +16,10 @@ const Navbar = () => {
     <div>
       <nav className={styles.navbar}>
         <div className={styles['navbar-container']}>
-          <Link to="/" className={styles['navbar-logo']} onClick={closeMobileMenu}>
+          <div className={styles['navbar-logo']}>
+            <img src={ProfilePic} alt="Jackeline Profile Pic" className={styles['profile-pic']} />
             Jackeline&apos;s Data Bites
-          </Link>
+          </div>
           <div onClick={handleClick}>
             <img src={click ? Cancel : WhiteMenuBar} alt="cancel icon" className={styles['menu-icon']} />
           </div>
