@@ -9,7 +9,6 @@ const Cards = () => (
       <div className={styles.cards__wrapper}>
         <ul className={styles.cards__items}>
           <CardItem imageSrc={PlaceholderImage} label="label" caption="Journal Title" path="/posts" />
-          <CardItem imageSrc={PlaceholderImage} label="label" caption="Journal Title" path="/posts" />
         </ul>
       </div>
     </div>

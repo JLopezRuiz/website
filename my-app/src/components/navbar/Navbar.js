@@ -33,8 +33,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles['nav-item']}>
-              <Link to="/posts" className={styles['nav-links']} onClick={closeMobileMenu}>
-                Posts
+              <Link to="/tutoring" className={styles['nav-links']} onClick={closeMobileMenu}>
+                CS Tutoring
               </Link>
             </li>
           </ul>
