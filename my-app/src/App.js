@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './components/pages/home/Home';
 import About from './components/pages/about/About';
 import Tutoring from './components/pages/tutoring/Tutoring';
+import Footer from './components/footer/Footer';
 
 const App = () => (
   <div className="App">
@@ -15,6 +16,7 @@ const App = () => (
         <Route path="/about" element={<About />} />
         <Route path="/tutoring" element={<Tutoring />} />
       </Routes>
+      <Footer />
     </Router>
   </div>
 );

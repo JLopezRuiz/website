@@ -1,14 +1,12 @@
 import React from 'react';
 import Title from '../../generic/title/Title';
 import Content from '../../generic/content/Content';
-import LinkedInIcon from '../../../assets/icons/LinkedInIcon.svg';
-import GithubIcon from '../../../assets/icons/GithubIcon.svg';
 import styles from './Tutoring.module.scss';
 
 const Posts = () => {
   const p1 = 'If you, your child, or anyone else you know is in need of extra support to learn computer science, then I offer tutoring both in person and virtual through Zoom.';
   const p2 = 'I graduated from Wellesley College with a B.A. in Computer Science in 2021. I was a TA for an introductory course to computer science while I was in college. I also have two years of experience working in the tech industry as a Software Engineer. Additionally, I wrote this entire website on my own! You can check out my code on Github and my LinkedIn down below as well.';
-  const p3 = "Please get in touch! I'm flexible and open to discussing smaller rates for low-income families. I aim to be as accessible as possible to help encourage tech!  Please fill out this Google Form with your information and I will reach out within 24 hours.";
+  const p3 = "Please get in touch! I'm flexible and open to discussing smaller rates for low-income families. I aim to be as accessible as possible to help encourage tech!  Please fill out the Google Form below with your information and I will reach out within 1-2 days.";
 
   return (
     <div>
@@ -21,13 +19,8 @@ const Posts = () => {
         <li>Weekly sessions for 4+ weeks: $40 each session</li>
       </ul>
       <Content paragraphs={[p3]} />
-      <div className={styles['social-icons']}>
-        <a href="https://www.linkedin.com/in/jackeline-lopez-ruiz/">
-          <img src={LinkedInIcon} alt="LinkedIn icon" className={styles['social-icon']} />
-        </a>
-        <a href="https://github.com/JLopezRuiz/my_website">
-          <img src={GithubIcon} alt="LinkedIn icon" className={styles['social-icon']} />
-        </a>
+      <div className={styles['google-form']}>
+        <iframe title="title" src="https://docs.google.com/forms/d/e/1FAIpQLScJlzVqZu-3JB1ziOmrX4QgaKITT1j1Zq_bYREmp0bmKCcCWg/viewform?embedded=true" width="640" height="900">Loading…</iframe>
       </div>
     </div>
   );
