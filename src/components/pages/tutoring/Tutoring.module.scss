@@ -1,14 +1,15 @@
 .section-header {
-    margin: 24px 124px 0px;
+    margin: 24px 48px 0px;
 }
 
 .rates-list {
     line-height: 1.5;
-    font-size: 2vw;
-    margin: 24px 124px;
+    font-size: min(4vw, 21px);
+    margin: 24px 48px;
     list-style-type: none; 
 }
 
 .google-form {
     text-align:center;
+    max-width: 100%;
 }

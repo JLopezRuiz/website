@@ -20,7 +20,7 @@ const Posts = () => {
       </ul>
       <Content paragraphs={[p3]} />
       <div className={styles['google-form']}>
-        <iframe title="title" src="https://docs.google.com/forms/d/e/1FAIpQLScJlzVqZu-3JB1ziOmrX4QgaKITT1j1Zq_bYREmp0bmKCcCWg/viewform?embedded=true" width="640" height="900">Loading…</iframe>
+        <iframe title="title" src="https://docs.google.com/forms/d/e/1FAIpQLScJlzVqZu-3JB1ziOmrX4QgaKITT1j1Zq_bYREmp0bmKCcCWg/viewform?embedded=true" width="85%" height="900">Loading…</iframe>
       </div>
     </div>
   );
