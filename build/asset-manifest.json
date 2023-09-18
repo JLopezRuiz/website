@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.bc50a718.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.17478da5.js",
+    "static/media/headphones.jpg": "/%7Brepo-name%7D/static/media/headphones.8b42e92f4222da208e7b.jpg",
+    "static/media/profile-pic.png": "/%7Brepo-name%7D/static/media/profile-pic.b9411927ef029df58410.png",
+    "static/media/GithubIcon.svg": "/%7Brepo-name%7D/static/media/GithubIcon.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/LinkedInIcon.svg": "/%7Brepo-name%7D/static/media/LinkedInIcon.c7edb0f3cd867a03828551d841262eb6.svg",
+    "static/media/Cancel.svg": "/%7Brepo-name%7D/static/media/Cancel.eb03205bf4fff2f750f182b200b41654.svg",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "static/media/WhiteMenuBar.svg": "/%7Brepo-name%7D/static/media/WhiteMenuBar.d2e20b4f1998fd6398034dac36c61f16.svg",
+    "main.bc50a718.css.map": "/%7Brepo-name%7D/static/css/main.bc50a718.css.map",
+    "main.17478da5.js.map": "/%7Brepo-name%7D/static/js/main.17478da5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc50a718.css",
+    "static/js/main.17478da5.js"
+  ]
+}
