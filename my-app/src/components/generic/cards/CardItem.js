@@ -12,7 +12,7 @@ const CardItem = ({
         <figure className={styles['cards__item__pic-wrap']} data-category={label}>
           <img
             className={styles.cards__item__img}
-            alt=""
+            alt={caption}
             src={imageSrc}
           />
         </figure>

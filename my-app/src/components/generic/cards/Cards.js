@@ -1,6 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem';
-import PlaceholderImage from '../../../assets/images/img-2.jpg';
+import Headphones from '../../../assets/images/headphones.jpg';
 import styles from './Cards.module.scss';
 
 const Cards = () => (
@@ -8,7 +8,7 @@ const Cards = () => (
     <div className={styles.cards__container}>
       <div className={styles.cards__wrapper}>
         <ul className={styles.cards__items}>
-          <CardItem imageSrc={PlaceholderImage} label="label" caption="Journal Title" path="/posts" />
+          <CardItem imageSrc={Headphones} label="coming soon..." caption="What do my top 10 most listened to artists on Spotify say about me?" path="/" />
         </ul>
       </div>
     </div>
