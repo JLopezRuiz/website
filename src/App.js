@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Helmet} from 'react-helmet';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/pages/home/Home';
 import About from './components/pages/about/About';
@@ -9,12 +10,15 @@ import Footer from './components/footer/Footer';
 
 const App = () => (
   <div className="App">
+    <Helmet>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Helmet>
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/tutoring" element={<Tutoring />} />
+        <Route path="/website" exact element={<Home />} />
+        <Route path="/website/about" element={<About />} />
+        <Route path="/website/tutoring" element={<Tutoring />} />
       </Routes>
       <Footer />
     </Router>

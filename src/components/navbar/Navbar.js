@@ -25,17 +25,17 @@ const Navbar = () => {
           </div>
           <ul className={click ? styles['nav-menu-active'] : styles['nav-menu']}>
             <li className={styles['nav-item']}>
-              <Link to="/" className={styles['nav-links']} onClick={closeMobileMenu}>
+              <Link to="/website" className={styles['nav-links']} onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className={styles['nav-item']}>
-              <Link to="/about" className={styles['nav-links']} onClick={closeMobileMenu}>
+              <Link to="/website/about" className={styles['nav-links']} onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
             <li className={styles['nav-item']}>
-              <Link to="/tutoring" className={styles['nav-links']} onClick={closeMobileMenu}>
+              <Link to="/website/tutoring" className={styles['nav-links']} onClick={closeMobileMenu}>
                 CS Tutoring
               </Link>
             </li>
