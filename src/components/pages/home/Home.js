@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Title text={p1} />
       <p className={styles.text}>
-        Thanks to the [ACT] we all have rights to access the data that these online services
+        Thanks to data privacy laws we have rights to access the data that these online services
         collect from us.
         Explore posts where I explore the data that these online services collected from me.
         I hope this project can inspire you to think more about one of your most valuable assets:
