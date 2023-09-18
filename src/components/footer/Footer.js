@@ -9,7 +9,7 @@ const Footer = () => (
       <a href="https://www.linkedin.com/in/jackeline-lopez-ruiz/" target="_blank" rel="noopener noreferrer">
         <img src={LinkedInIcon} alt="LinkedIn icon" className={styles['social-icon']} />
       </a>
-      <a href="https://github.com/JLopezRuiz/my_website" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/JLopezRuiz/website" target="_blank" rel="noopener noreferrer">
         <img src={GithubIcon} alt="LinkedIn icon" className={styles['social-icon']} />
       </a>
     </div>
