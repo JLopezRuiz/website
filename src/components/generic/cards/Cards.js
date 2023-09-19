@@ -8,7 +8,7 @@ const Cards = () => (
     <div className={styles.cards__container}>
       <div className={styles.cards__wrapper}>
         <ul className={styles.cards__items}>
-          <CardItem imageSrc={Headphones} label="coming soon..." caption="What do my top 10 artists on Spotify say about me?" path="/website" />
+          <CardItem imageSrc={Headphones} label="coming soon..." caption="What do my top 10 artists on Spotify say about me?" path="/" />
         </ul>
       </div>
     </div>
