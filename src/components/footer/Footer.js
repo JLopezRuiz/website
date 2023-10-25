@@ -7,10 +7,10 @@ const Footer = () => (
   <div className={styles['footer-container']}>
     <div className={styles['social-icons']}>
       <a href="https://www.linkedin.com/in/jackeline-lopez-ruiz/" target="_blank" rel="noopener noreferrer">
-        <img src={LinkedInIcon} alt="LinkedIn icon" className={styles['social-icon']} />
+        <img src={LinkedInIcon} alt="LinkedIn logo" className={styles['social-icon']} />
       </a>
       <a href="https://github.com/JLopezRuiz/website" target="_blank" rel="noopener noreferrer">
-        <img src={GithubIcon} alt="LinkedIn icon" className={styles['social-icon']} />
+        <img src={GithubIcon} alt="Github logo" className={styles['social-icon']} />
       </a>
     </div>
   </div>
