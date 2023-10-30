@@ -6,7 +6,7 @@ import WhiteMenuBar from '../../assets/icons/WhiteMenuBar.svg';
 import ProfilePic from '../../assets/images/profile-pic.png';
 import styles from './Navbar.module.scss';
 
-// TODO: make navbar sticky, transparent?, and pop-up on mouse over
+// TODO: make navbar transparent?, and pop-up on mouse over
 // DEBUG: link to Experience doesn't work when on a different page
 const Navbar = () => {
   const [click, setClick] = useState(false);

@@ -1,0 +1,28 @@
+.experience-section {
+    background: linear-gradient(rgb(95, 182, 209) 10%, rgb(105, 69, 155) 100%);
+    display: flex;
+}
+
+.experience-section-label {
+    padding-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align:left;
+    color: azure;
+}
+
+.experience-section-jobs {
+    line-height: 1.5;
+    font-size: min(4vw, 22px);
+    text-align:justify;
+    margin: 24px 48px;
+    color: azure;
+}
+
+.experience-section-job-desc {
+    line-height: 1.5;
+    font-size: min(4vw, 22px);
+    text-align:justify;
+    margin: 24px 48px;
+    color: azure;
+}

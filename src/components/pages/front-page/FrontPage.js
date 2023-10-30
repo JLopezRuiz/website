@@ -3,12 +3,12 @@ import Title from '../../generic/title/Title';
 import ProfilePic from '../../../assets/images/profile-pic.png';
 import styles from './FrontPage.module.scss';
 
-// TODO: Replace Image and Contact Button
+// TODO: Replace Image and Add Contact Button
 // TODO: When screen size smaller, place photo above and content below
 const FrontPage = () => {
     return (
-        <div className={styles['front-page']}>
-            <img src={ProfilePic} alt="me, smiling with a pink bucket hat" className={styles['front-page-img']} />
+        <div id="frontPage" className={styles['front-page']}>
+            <img src={ProfilePic} alt="me, smiling at the camera with a pink bucket hat" className={styles['front-page-img']} />
             <div>
                 <Title text="Hi, I'm Jackeline!" className={styles['front-page-title']} />
                 <p className={styles['front-page-text']}>
