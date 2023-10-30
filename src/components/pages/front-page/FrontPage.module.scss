@@ -24,6 +24,11 @@
     color: azure;
 }
 
+.contact-btn {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 500px) { 
    .front-page {
     flex-wrap: wrap;

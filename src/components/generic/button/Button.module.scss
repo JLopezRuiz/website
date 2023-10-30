@@ -27,6 +27,9 @@
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
+  background: #253d54;
+  color: #fff;
+  border-radius: 10px;
 }
 
 .btn--large {
@@ -38,6 +41,6 @@
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #242424;
+  color: #253d54;
   transition: 250ms;
 }
