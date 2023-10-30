@@ -5,6 +5,8 @@
 
 .front-page-img {
     max-width: 100%;
+    width: auto;
+    height: 100%;
 }
 
 .front-page-title {
@@ -16,8 +18,20 @@
 
 .front-page-text {
     line-height: 1.5;
-    font-size: min(4vw, 22px);
+    font-size: min(4vw, 22px); 
     text-align:justify;
     margin: 24px 48px;
     color: azure;
+}
+
+@media screen and (max-width: 500px) { 
+   .front-page {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .front-page-img {
+    width: auto;
+    height: 70vw;
+   }
 }

@@ -4,7 +4,6 @@ import ProfilePic from '../../../assets/images/profile-pic.png';
 import styles from './FrontPage.module.scss';
 
 // TODO: Replace Image and Add Contact Button
-// TODO: When screen size smaller, place photo above and content below
 const FrontPage = () => {
     return (
         <div id="frontPage" className={styles['front-page']}>
