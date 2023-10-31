@@ -2,9 +2,8 @@ import React from 'react';
 import './App.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Home from './components/pages/home/Home';
-import About from './components/pages/about/About';
-import Tutoring from './components/pages/tutoring/Tutoring';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
 import Footer from './components/footer/Footer';
 
 const App = () => (
@@ -14,7 +13,6 @@ const App = () => (
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/tutoring" element={<Tutoring />} />
       </Routes>
       <Footer />
     </Router>
