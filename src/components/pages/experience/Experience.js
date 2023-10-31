@@ -7,9 +7,9 @@ const Experience = () => {
   return (
     <div id="experienceSection" className={styles['experience-section']}>
       <Title text={"Experience"} className={styles['experience-section-label']} />
-      <div>
+      <section>
         <h2>Testy test</h2>
-      </div>
+      </section>
     </div>
   )
 }

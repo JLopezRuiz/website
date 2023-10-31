@@ -8,10 +8,10 @@ const About = () => {
   const p3 = "Therefore, in an effort to take back some of my power, I requested access to some of my data that the WWW has collected from me. In this site, I share what I have learned about myself based on the data that services like Spotify, YouTube, Nintendo and others collected about me - a young, Latina, female consumer who plays too much Animal Crossing and downloads more podcasts than she could ever listen to.";
 
   return (
-    <div>
+    <section>
       <Title text="About" />
       <Content paragraphs={[p1, p2, p3]} />
-    </div>
+    </section>
   );
 };
 
