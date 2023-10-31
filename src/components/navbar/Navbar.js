@@ -30,11 +30,6 @@ const Navbar = () => {
               </HashLink>
             </li>
             <li className={styles['nav-item']}>
-              <HashLink to="/about#top" smooth className={styles['nav-links']} onClick={closeMobileMenu}>
-                About
-              </HashLink>
-            </li>
-            <li className={styles['nav-item']}>
               <HashLink 
               to="/#experienceSection" 
               className={styles['nav-links']} 
@@ -43,6 +38,11 @@ const Navbar = () => {
               smooth={true} 
               duration={500}>
                 Experience
+              </HashLink>
+            </li>
+            <li className={styles['nav-item']}>
+              <HashLink to="/about#top" smooth className={styles['nav-links']} onClick={closeMobileMenu}>
+                About
               </HashLink>
             </li>
           </ul>
