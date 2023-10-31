@@ -17,7 +17,7 @@ const FrontPage = () => {
                 <p className={styles['front-page-text']} style={{'fontWeight': 'bold'}}>
                     Let's connect and explore the magic of creation together! 🌟
                 </p>
-                <Button children={"Abracadabra!"} link={'/about'} className={styles['contact-btn']} />
+                <Button children={"Abracadabra!"} link={'/about#top'} className={styles['contact-btn']} />
             </section>
         </div>
     )

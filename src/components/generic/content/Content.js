@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import styles from './Content.module.scss';
 
 const Content = ({ contentClassName, paragraphs, paragraphClassName }) => (
-  <div className={contentClassName || styles['text-default']}>
-    {paragraphs.map((text) => (<p key={text.substring(1, 6)} className={paragraphClassName || styles['paragraph-spacing']}>{text}</p>))}
-  </div>
+  <section className={contentClassName || styles['text-default']}>
+    {paragraphs.map((text) => (<p key={text} className={paragraphClassName || styles['paragraph-spacing']}>{text}</p>))}
+  </section>
 );
 
 Content.propTypes = {

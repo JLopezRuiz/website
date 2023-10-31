@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Cancel from '../../assets/icons/Cancel.svg';
 import WhiteMenuBar from '../../assets/icons/WhiteMenuBar.svg';
-import ProfilePic from '../../assets/images/profile-pic.png';
+// import ProfilePic from '../../assets/images/profile-pic.png';
 import styles from './Navbar.module.scss';
 
 // TODO: make navbar transparent?, and pop-up on mouse over
@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <div className={styles['navbar-container']}>
           <div className={styles['navbar-logo']}>
-            <img src={ProfilePic} alt="me, smiling with a pink bucket hat" className={styles['profile-pic']} />
+            {/* <img src={ProfilePic} alt="me, smiling with a pink bucket hat" className={styles['profile-pic']} /> */}
             Jackeline Lopez Ruiz
           </div>
           <div onClick={handleClick}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
 import styles from './Button.module.scss';
 
@@ -10,7 +10,7 @@ const Button = ({
   className
 }) => {
   return (
-    <Link to={link} className={className}>
+    <HashLink smooth to={link} className={className}>
       <button
         className={styles['btn--medium']}
         onClick={onClick}
@@ -18,7 +18,7 @@ const Button = ({
       >
         {children}
       </button>
-    </Link>
+    </HashLink>
   );
 };
 
