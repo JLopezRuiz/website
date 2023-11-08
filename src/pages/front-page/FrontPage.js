@@ -1,14 +1,14 @@
 import React from 'react';
 import Title from '../../components/generic/title/Title';
 import Button from '../../components/generic/button/Button';
-import ProfilePic from '../../assets/images/profile-pic.png';
+import ProfilePic from '../../assets/images/selfie2.jpg';
 import styles from './FrontPage.module.scss';
 
 // TODO: Redirect Contact Button to email
 const FrontPage = () => {
     return (
         <div id="frontPage" className={styles['front-page']}>
-            <img src={ProfilePic} alt="me, smiling at the camera with a pink bucket hat" className={styles['front-page-img']} />
+            <img src={ProfilePic} alt="me, smiling at the camera while sitting on a horizontal tree trunk" className={styles['front-page-img']} />
             <section>
                 <Title text="Hi, I'm Jackeline!" className={styles['front-page-title']} />
                 <p className={styles['front-page-text']}>

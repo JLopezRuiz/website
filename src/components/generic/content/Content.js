@@ -9,7 +9,7 @@ const Content = ({ contentClassName, paragraphs, paragraphClassName }) => (
 );
 
 Content.propTypes = {
-  paragraphs: PropTypes.arrayOf(PropTypes.string),
+  paragraphs: PropTypes.arrayOf(PropTypes.object),
   paragraphClassName: PropTypes.string,
   contentClassName: PropTypes.string,
 };
