@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import styles from './Content.module.scss';
 
 const Content = ({ contentClassName, paragraphs, paragraphClassName }) => (
-  <div className={contentClassName || styles['text-default']}>
-    {paragraphs.map((text) => (<p key={text.substring(1, 6)} className={paragraphClassName || styles['paragraph-spacing']}>{text}</p>))}
-  </div>
+  <section className={contentClassName || styles['text-default']}>
+    {paragraphs.map((text) => (<div key={Math.random()} className={paragraphClassName || styles['paragraph-spacing']}>{text}</div>))}
+  </section>
 );
 
 Content.propTypes = {
-  paragraphs: PropTypes.arrayOf(PropTypes.string),
+  paragraphs: PropTypes.arrayOf(PropTypes.object),
   paragraphClassName: PropTypes.string,
   contentClassName: PropTypes.string,
 };

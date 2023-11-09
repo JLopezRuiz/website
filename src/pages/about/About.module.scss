@@ -1,0 +1,14 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+.email-link {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    line-height: 1.5;
+    font-size: min(4vw, 21px);
+}
