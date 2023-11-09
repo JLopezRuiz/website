@@ -21,26 +21,25 @@ const Navbar = () => {
             Jackeline Lopez Ruiz
           </div>
           <div onClick={handleClick}>
-            <img src={click ? Cancel : WhiteMenuBar} alt="cancel icon" className={styles['menu-icon']} />
+            <img src={click ? Cancel : WhiteMenuBar} alt="cancel icon" className={styles['menu-icon']} aria-label='menu' />
           </div>
           <ul className={click ? styles['nav-menu-active'] : styles['nav-menu']}>
-            <li className={styles['nav-item']}>
+            <li className={styles['nav-item']} aria-label='home'>
               <HashLink smooth to="/#" className={styles['nav-links']} onClick={closeMobileMenu}>
                 Home
               </HashLink>
             </li>
-            <li className={styles['nav-item']}>
+            <li className={styles['nav-item']} aria-label='experience section'>
               <HashLink 
               to="/#experienceSection" 
               className={styles['nav-links']} 
-              onClick={closeMobileMenu} 
-              // spy={true} 
-              smooth={true} 
+              onClick={closeMobileMenu}
+              smooth 
               duration={500}>
                 Experience
               </HashLink>
             </li>
-            <li className={styles['nav-item']}>
+            <li className={styles['nav-item']} aria-label='about page'>
               <HashLink to="/about#top" smooth className={styles['nav-links']} onClick={closeMobileMenu}>
                 About
               </HashLink>
