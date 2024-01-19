@@ -16,3 +16,9 @@
     line-height: 1.5;
     font-size: min(4vw, 21px);
 }
+
+@media screen and (max-width: 760px) { 
+    .about-section {
+        margin: 0 auto;
+    }
+ }
