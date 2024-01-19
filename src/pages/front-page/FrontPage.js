@@ -14,7 +14,7 @@ const FrontPage = () => {
             <img src={ProfilePic} alt="me, smiling at the camera while sitting on a horizontal tree trunk" className={styles['front-page-img']} />
             <section>
                 <Title text="Hi, I'm Jackeline!" className={styles['front-page-title']} />
-                <Content paragraphs={[p1, p2]} paragraphClassName={styles['front=page-text']} />
+                <Content paragraphs={[p1, p2]} paragraphClassName={styles['front-page-text']} />
                 <Button children={"Abracadabra!"} link={'/about#top'} className={styles['contact-btn']} aria-label='about page'/>
             </section>
         </div>

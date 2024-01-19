@@ -10,7 +10,7 @@ const About = () => {
   const p4 = <b>Let's connect and explore the magic of creation together! 🌟</b>;
 
   return (
-    <section >
+    <section className={styles['about-section']} >
       <Title text="About"/>
       <Content paragraphs={[p1, p2, p3, p4]} />
       <div className={styles['contact-section']}>

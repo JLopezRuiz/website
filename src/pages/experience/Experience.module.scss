@@ -1,13 +1,13 @@
 .experience-section {
     // background: linear-gradient(rgb(95, 182, 209) 10%, rgb(105, 69, 155) 100%);
     display: flex;
-    column-gap: 20vw;
+    column-gap: 10vw;
     padding-top: 3rem;
+    margin: 0 18vh;
 }
 
 .experience-section-label {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 10px;
     text-align:left;
     color: azure;
 }
