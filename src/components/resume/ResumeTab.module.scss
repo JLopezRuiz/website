@@ -2,8 +2,10 @@
     display: flex;
     color: azure;
     column-gap: 1rem;
-    margin: 24px 48px;
-    align-items: center;
+    margin: 24px 0;
+    font-size: min(4vw, 22px); 
+    line-height: 1.5;
+    align-items: left;
 }
 
 .resume-tab-date{
@@ -13,11 +15,19 @@
 .resume-tab-section{
     display: flex;
     flex-direction: column;
-    max-width: 50vw;
+    max-width: 50vw;   
 }
 
-@media screen and (max-width: 760px) { 
-    .resume-tab-date {
-        min-width: 20vw;
-    }
+.resume-tab-subtitle{
+    font-weight: bold;
+    font-size: min(4vw, 22px);
+    font-style: italic;
 }
+
+// @media screen and (max-width: 760px) { 
+//     .resume-tab {
+//         flex-wrap: wrap;
+        // flex-direction: column;
+        // column-gap: 0;
+//     }
+// }

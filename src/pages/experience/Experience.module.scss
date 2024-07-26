@@ -3,11 +3,10 @@
     display: flex;
     column-gap: 10vw;
     padding-top: 3rem;
-    margin: 0 18vh;
+    margin: 0 35vh;
 }
 
 .experience-section-label {
-    margin: 0 10px;
     text-align:left;
     color: azure;
 }
@@ -15,6 +14,7 @@
 @media screen and (max-width: 760px) { 
     .experience-section {
      flex-wrap: wrap;
-     justify-content: center;
+     justify-content: space-around;
+     margin: 0 auto;
     }
 }
